@@ -8,6 +8,7 @@ import APIInvoke from "../../configuracion/APIInvoke";
 
 
 
+
 const EditarProductos = () => {
 
   const navigate = useNavigate();
@@ -43,6 +44,7 @@ const EditarProductos = () => {
     setCantidad(response.cantidad);
     setNumeroInvima(response.numeroInvima);
     setPaisOrigen(response.paisOrigen);
+
   }
 
 return(
